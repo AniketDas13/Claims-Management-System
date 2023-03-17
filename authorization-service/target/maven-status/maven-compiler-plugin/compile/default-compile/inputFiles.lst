@@ -1,0 +1,14 @@
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\model\MyUser.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\controller\JwtAuthenticationController.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\repository\MyUserRepository.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\config\WebSecurityConfig.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\model\JwtResponse.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\model\UserToken.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\model\ErrorResponse.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\service\JwtRequestFilter.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\service\JwtUtil.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\service\CustomerDetailsService.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\AuthorizationServiceApplication.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\exception\GlobalErrorHandler.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\model\UserLoginCredential.java
+D:\Miscellaneous\Claims-Management-System-main\Claims-Management-System\authorization-service\src\main\java\com\cognizant\authorization\exception\UserNotFoundException.java

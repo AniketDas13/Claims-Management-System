@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+    /*.div1{
+        margin:auto;
+        width:60%;
+        border:3px solid greenyellow;
+        padding:10px;
+    }*/
+    .div2{
+        margin:auto;
+        width:60%;
+        padding:10px;
+    }
+    .form-group{
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+    }
+    #submit-div
+    {
+        margin-left: 180px;
+    }
+    .input{
+    padding: 15px 15px;
+    margin-bottom: 10px;
+    min-height: 3px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: normal;
+    width: 400px;
+    background-color:white;
+    border-radius: 5px;
+    border-color:rgb(120, 216, 240) ;
+    text-align: center;
+    }
+    .background{
+        background-image:url(https://www.capgemini.com/wp-content/uploads/2019/03/Insurance-Website_1775x462px_Option-2-e1606901611756.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+       /* -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);*/
+    }
+    ::placeholder{
+        color: black;
+    }
+    #icons{
+        margin-top: 12px;
+        position: absolute;
+        size: large;
+        margin-left:10px ;
+    }
+    .navbar{
+        background-color: white;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtASlPxyE5v_F4s1YlKFcn__H4PWxD5p3sQ&usqp=CAU"
+			width="50" height="50">
+		<h2><a class="navbar-brand"
+				style="font-style: inherit; font-size:30px; margin-left:5px; color:rgb(10, 194, 14);"><b
+					style="font-family:arial;font-weight: bold;"> <i> U</i><b
+						style="color: rgb(0, 128, 255);">Claim</b></b></a></h2>
+    </nav>
+    <div class="background">
+    <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+    <div class="div1">
+        <div class="div2">
+        <form action="/memberHome" method="POST">
+        <p style="font-weight: lighter; margin: 10px; padding: 0; color: white"
+					th:text="${message}"></p>
+            <div class="form-group" id="user">
+                <span class = "material-icons md-18" id="icons">account_circle</span>
+                <input type="text" name="username" id="user" placeholder="Enter User Id" class="input" >
+            </div>
+            <div class="form-group" id="pass">
+                <span class="material-icons md-18" id="icons">
+                    vpn_key
+                    </span>
+                <input type="password" name="password" id="pass" placeholder="Enter Password" class="input"> 
+            </div>
+            <div class="form-group" id="submit-div">
+                <input type="submit" class="btn btn-block mb-4" name="submit" value="Login" style="width: fit-content; background-color: white;color: black;">
+            </div>
+        </form>
+    </div>
+    </div>
+    </main>
+</div>
+</body>
